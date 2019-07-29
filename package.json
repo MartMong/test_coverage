@@ -1,0 +1,16 @@
+{
+  "name": "coverall",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha test --recursive --timeout 10000",
+    "test:coverage": "nyc --reporter=lcov --reporter=text-summary ./node_modules/.bin/_mocha test --recursive --timeout 10000"
+
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
+  }
+}
