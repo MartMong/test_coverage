@@ -18,4 +18,11 @@ describe('Math', () => {
 			expect(result).to.equal(2)
 		})
 	})
+
+	describe('subt', () => {
+		it('should return correct value', () => {
+			const result = subt(1, 2)
+			expect(result).to.equal(-1)
+		})
+	})
 })

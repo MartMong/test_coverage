@@ -17,3 +17,7 @@ exports.devide = (a, b) => {
 exports.power = (a, b) => {
     return math.pow(a, b)
 }
+
+exports.mod = (a, b) => {
+    return a % b
+}
