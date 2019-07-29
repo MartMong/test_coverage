@@ -22,7 +22,7 @@ exports.mod = (a, b) => {
     return a % b
 }
 
-exports.mod = (a, b) => {
+exports.compare = (a, b) => {
     if (a > b) {
         return 1
     }

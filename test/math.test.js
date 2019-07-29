@@ -29,7 +29,7 @@ describe('Math', () => {
 	describe('devide', () => {
 		it('should return correct value', () => {
 			const result = devide(1, 2)
-			expect(result).to.equal(0.5)
+			expect(result).to.equal(0.25)
 		})
 	})
 })
