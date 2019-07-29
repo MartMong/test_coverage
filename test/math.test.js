@@ -25,4 +25,11 @@ describe('Math', () => {
 			expect(result).to.equal(-1)
 		})
 	})
+
+	describe('devide', () => {
+		it('should return correct value', () => {
+			const result = devide(1, 2)
+			expect(result).to.equal(0.5)
+		})
+	})
 })
