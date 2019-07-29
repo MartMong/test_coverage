@@ -21,3 +21,13 @@ exports.power = (a, b) => {
 exports.mod = (a, b) => {
     return a % b
 }
+
+exports.mod = (a, b) => {
+    if (a > b) {
+        return 1
+    }
+    else if(a === b){
+        return 2
+    }
+    return 3
+}
