@@ -13,3 +13,7 @@ exports.multi = (a, b) => {
 exports.devide = (a, b) => {
     return a / b
 }
+
+exports.power = (a, b) => {
+    return math.pow(a, b)
+}
