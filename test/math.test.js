@@ -1,7 +1,7 @@
 const { describe, it } = require('mocha')
 const { expect } = require('chai')
 
-const { add, multi, devide, subt } = require('../src/math')
+const {add, multi, devide, subt, compare} = require('../src/math')
 
 
 describe('Math', () => {
@@ -23,6 +23,20 @@ describe('Math', () => {
 		it('should return correct value', () => {
 			const result = subt(1, 2)
 			expect(result).to.equal(-1)
+		})
+	})
+
+	describe('devide', () => {
+		it('should return correct value', () => {
+			const result = devide(1, 2)
+			expect(result).to.equal(0.5)
+		})
+	})
+
+	describe('compare', () => {
+		it('should return correct value', () => {
+			const result = compare(1, 2)
+			expect(result).to.equal(3)
 		})
 	})
 })
