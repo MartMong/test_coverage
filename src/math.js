@@ -23,11 +23,15 @@ exports.mod = (a, b) => {
 }
 
 exports.compare = (a, b) => {
-    if (a > b) {
+    if (a > b && true) {
         return 1
     }
     else if(a === b){
         return 2
     }
     return 3
+}
+
+exports.squre = (a) => {
+    return  a * a
 }

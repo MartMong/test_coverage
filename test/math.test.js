@@ -2,6 +2,7 @@ const { describe, it } = require('mocha')
 const { expect } = require('chai')
 
 const {add, multi, devide, subt, compare} = require('../src/math')
+const {fibonacci} = require('../src/fibo')
 
 
 describe('Math', () => {
@@ -37,6 +38,11 @@ describe('Math', () => {
 		it('should return correct value', () => {
 			const result = compare(1, 2)
 			expect(result).to.equal(3)
+		})
+
+		it('should return correct value', () => {
+			const result = compare(1, 1)
+			expect(result).to.equal(2)
 		})
 	})
 })
